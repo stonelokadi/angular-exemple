@@ -1,6 +1,7 @@
-import { Auth } from "aws-amplify";
+import { Injectable } from '@angular/core';
+import { Auth } from 'aws-amplify';
 
-
+@Injectable()
 export class CognitoService {
 
   constructor() { }

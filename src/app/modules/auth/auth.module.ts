@@ -14,6 +14,9 @@ import { primeNgModule } from './primeNgModule';
     SharedModule,
     ...primeNgModule,
     RouterModule.forChild(authRoutes),
+  ],
+  exports: [
+    ...primeNgModule,
   ]
 })
 export class AuthModule { }
